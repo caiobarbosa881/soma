@@ -1,12 +1,7 @@
-function somar(){
-    let v1 = document.getElementById("valor1");
-    let v2 = document.getElementById("valor2");
-    let resultado = document.getElementById("resultado");
+function somar() {
+    let v1 = document.querySelector(".valor1").value;
+    let v2 = document.querySelector(".valor2").value;
 
-    soma = v1 + v2;
-    resultado.innerHTML = soma;
-    console.log(v1)
-    console.log(v2)
-    console.log(resultado)
-
+    var resultado = parseInt(v1) + parseInt(v2);
+    document.querySelector(".resultado").innerHTML = resultado;
 }
