@@ -1,7 +1,10 @@
+html{
+    background-color: rgb(255, 174, 0);
+}
 .container{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
     top: 0;
     left: 0;
@@ -12,13 +15,34 @@
     height: 500px;
     width: 300px;
     border-radius: 10px;
+    font-size: 7px;
+}
+.container2{
+    height: 391px;
+    background-color:rgb(251, 251, 251);
 }
 input {
+    margin-top: 30px;
     height: 30px;
     width: 7rem;
     margin-bottom: 10px;
 }
 button{
-    height: 7rem;
-    width: 10rem;
+    height: 4rem;
+    width: 5rem;
+}
+#tela{
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    height: 75px;
+    width: 270px;
+    background-color:grey;
+}
+#telah1{
+    padding: 15px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
