@@ -16,6 +16,7 @@ html{
     width: 380px;
     border-radius: 10px;
     font-size: 7px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 .container2{
     height: 391px;
@@ -55,4 +56,4 @@ button{
     background-color: lightgrey;
     border-radius: 10px;
     border-color: white;
-}
+    font-family: monospace;
